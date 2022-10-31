@@ -2,3 +2,247 @@
     box-sizing: border-box;
 }
 
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+/* super dot  */
+
+.dice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 6rem;
+    width: 6rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* dot 1  */
+
+
+.dots-1 {
+    grid-column: 2;
+    grid-row: 2;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+/* dot 2  */
+
+.dots-2 {
+    grid-column: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-2-2 {
+    grid-column: 3;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+/* dot 3 */
+
+.dots-3 {
+    grid-column: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-3-2 {
+    grid-column: 2;
+    grid-row: 2;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-3-3 {
+    grid-column: 3;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* dot 4 */
+
+.dots-4 {
+    grid-column: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-4-2 {
+    grid-column: 3;
+    grid-row: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-4-3 {
+    grid-column: 3;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-4-4 {
+    grid-column: 1;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+/* dot 5 */
+
+.dots-5 {
+    grid-column: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-5-2 {
+    grid-column: 3;
+    grid-row: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-5-3 {
+    grid-column: 3;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-5-4 {
+    grid-column: 1;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-5-5 {
+    grid-column: 2;
+    grid-row: 2;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+/* dot 6 */
+
+.dots-6 {
+    grid-column: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-6-2 {
+    grid-column: 3;
+    grid-row: 1;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-6-3 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-6-4 {
+    grid-column: 1;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-6-5 {
+    grid-column: 3;
+    grid-row: 2;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.dots-6-6 {
+    grid-column: 3;
+    grid-row: 3;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
